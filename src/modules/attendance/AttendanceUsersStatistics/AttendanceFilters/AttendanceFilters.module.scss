@@ -1,0 +1,35 @@
+.attendanceFilters {
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(95, 94, 231, 0.07);
+    > h4 {
+        margin: 0;
+        padding: 16px 16px 0;
+    }
+}
+
+.attendanceFilterButtons {
+    padding: 16px;
+}
+.buttonFilter {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: #e9e9f0;
+    &:hover {
+        background-color: #E3E3F0FF;
+    }
+    > h4 {
+        margin: 0;
+        padding: 12px 0 12px 8px;
+        font-weight: 500;
+    }
+}
+
+.buttonFilterActive {
+    background-color: var(--theme-default);
+    > h4 {
+        color: white;
+        font-weight: 600;
+    }
+}

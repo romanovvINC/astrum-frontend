@@ -1,0 +1,23 @@
+.search_term_form {
+    position: relative;
+
+    .label {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .search_button {
+        position: absolute;
+        bottom: 12px;
+        right: 12px;
+        border: none;
+        padding: 0;
+        background-color: transparent;
+        display: flex;
+
+        .search_icon {
+            width: 16px;
+            height: 16px;
+        }
+    }
+}

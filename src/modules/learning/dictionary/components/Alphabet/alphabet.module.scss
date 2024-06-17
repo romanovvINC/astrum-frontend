@@ -1,0 +1,31 @@
+.alphabet {
+    display: flex;
+    flex-wrap: wrap;
+
+    > * {
+        cursor: pointer;
+        margin: 2px;
+        font-size: 20px;
+        text-decoration: underline;
+    }
+}
+
+.show_alphabet {
+    font-size: 16px;
+    color: #999;
+    border: none;
+    background-color: transparent;
+    padding: 0;
+    background-image: linear-gradient(to right, #999 33%, rgba(255, 255, 255, 0) 0%);
+    background-position: bottom;
+    background-size: 8px 1px;
+    background-repeat: repeat-x;
+
+    .icon {
+        transition: 0.2s;
+        margin-left: 5px;
+        &.rotated {
+            transform: rotate(180deg);
+        }
+    }
+}

@@ -1,0 +1,32 @@
+.details__header {
+    margin-bottom: 25px;
+}
+
+.details__body {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 0;
+}
+
+.actions__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .save_button {
+        font-size: 16px;
+    }
+
+    .save_button_loading_content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 330px;
+}

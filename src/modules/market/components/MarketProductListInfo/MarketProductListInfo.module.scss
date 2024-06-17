@@ -1,0 +1,35 @@
+.cardItem {
+    height: 520px !important;
+
+    .details {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: flex-start;
+        height: auto;
+
+        .description {
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    }
+}
+
+.modal {
+    font-family: Rubik, sans-serif !important;
+
+    .input_count::-webkit-outer-spin-button,
+    .input_count::-webkit-inner-spin-button {
+        /* display: none; <- Crashes Chrome on hover */
+        -webkit-appearance: none;
+        margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+    }
+}
+
+.image {
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}

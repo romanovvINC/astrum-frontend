@@ -1,0 +1,8 @@
+.article_card {
+  border: 1px solid var(--theme-default) !important;
+  cursor: pointer;
+
+  .title {
+    color: var(--theme-default);
+  }
+}

@@ -1,0 +1,21 @@
+.add_field_button_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add_field_button {
+    background-color: white;
+    border: 1px solid #6362e7;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+}
+
+.plus {
+    height: 35px;
+    width: 35px;
+}

@@ -1,0 +1,31 @@
+.comment {
+    margin-top: 20px;
+
+    .header {
+        margin-bottom: 10px;
+    }
+}
+
+.comment_text {
+    color: #2c323f;
+    font-weight: 300;
+    letter-spacing: normal;
+    text-align: left;
+    line-height: normal;
+    font-size: 18px;
+    margin: 0;
+}
+
+.comment_body {
+    margin-left: 15px;
+}
+
+.reply_button {
+    color: aqua;
+    cursor: pointer;
+
+    user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}

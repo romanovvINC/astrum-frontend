@@ -1,0 +1,47 @@
+.attendanceSessionCellsContainer {
+    flex-direction: column;
+    justify-content: center;
+    min-width: 500px;
+}
+
+.attendanceSessionCells {
+    display: flex;
+    position: relative;
+    .sessionCell {
+        position: relative;
+        width: 36px;
+        height: 24px;
+        margin-right: 6px;
+        background-color: #cbcbef;
+        border-radius: 4px;
+        .sessionCellTime {
+            width: 100%;
+            position: absolute;
+            left: 0;
+            top: -16px;
+            font-size: 10px;
+            color: black;
+            text-align: center;
+        }
+    }
+    .sessionCellActive {
+        top: 0;
+        position: absolute;
+        background-color: #6362e7;
+    }
+}
+
+.attendanceSessionCellsSecond {
+    margin-top: 6px;
+}
+
+.attendanceDateCell {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: #1e1e52;
+    padding: 0 6px;
+}
+

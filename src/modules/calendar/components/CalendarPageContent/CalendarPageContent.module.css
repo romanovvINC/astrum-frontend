@@ -1,0 +1,5 @@
+.calendar_card__body {
+    :global(.toastui-calendar-panel:not(.toastui-calnder-time)) {
+    overflow-y: auto !important;
+    }
+    }

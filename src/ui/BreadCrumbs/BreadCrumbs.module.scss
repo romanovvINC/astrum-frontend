@@ -1,0 +1,13 @@
+.breadcrumbs {
+    ol {
+        margin: 0;
+
+        li:not(:last-child) {
+            color: #999999;
+        }
+
+        li:last-child::before {
+            color: #999999;
+        }
+    }
+}

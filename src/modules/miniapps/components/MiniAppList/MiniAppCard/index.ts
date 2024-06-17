@@ -1,0 +1,1 @@
+export { default as MiniAppCard } from './MiniAppCard'

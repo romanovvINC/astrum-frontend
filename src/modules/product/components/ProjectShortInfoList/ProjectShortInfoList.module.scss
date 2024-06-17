@@ -1,0 +1,28 @@
+.project_list {
+    padding-left: 20px !important;
+    padding-right: 20px;
+
+    .project_info_li {
+        border: 1px solid #c1c0f5 !important;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 0;
+
+        .project_info {
+            color: #2c323f;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 20px;
+
+            &:hover {
+                color: #6362e7;
+                cursor: pointer;
+            }
+
+            h4 {
+                margin: 0;
+            }
+        }
+    }
+}

@@ -1,0 +1,80 @@
+.product_info {
+    color: #2c323f;
+
+    h2,
+    h3 {
+        font-weight: 600;
+    }
+
+    .name {
+        margin: 0 0 10px;
+    }
+
+    .develop_duration {
+        font-weight: 400;
+    }
+
+    .description {
+        font-size: 18px;
+    }
+
+    .projects__list {
+        padding-left: 20px !important;
+        padding-right: 20px;
+
+        .project_info__li {
+            border: 1px solid #c1c0f5 !important;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 0;
+
+            .project_info {
+                color: #2c323f;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px 20px;
+
+                &:hover {
+                    color: #6362e7;
+                    cursor: pointer;
+                }
+
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 36px;
+
+    &.name {
+        width: 50%;
+    }
+
+    &.develop_duration {
+        height: 28px;
+        width: 65%;
+    }
+
+    &.customer {
+        height: 28px;
+        width: 40%;
+        margin-bottom: 10px;
+    }
+
+    &.description {
+        width: 100%;
+        height: 150px;
+        margin-bottom: 30px;
+    }
+
+    &.projects {
+        width: 100%;
+        height: 250px;
+    }
+}

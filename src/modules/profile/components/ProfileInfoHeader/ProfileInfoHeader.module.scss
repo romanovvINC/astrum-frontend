@@ -1,0 +1,62 @@
+.profile_background {
+    background-color: #bebdff !important;
+    display: block;
+    position: relative;
+
+    .background_image {
+        background-size: cover;
+        background-position: center;
+        border: none;
+        border-radius: 15px;
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+        &.little {
+            position: unset;
+            object-fit: contain;
+        }
+    }
+
+    &:hover {
+        .change_background__button {
+            opacity: 1;
+        }
+    }
+}
+
+.change_background__button {
+    border: none;
+    opacity: 0;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    padding: 10px 15px;
+    transition: 0.2s;
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 420px;
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 575px) {
+    .profile_background {
+        background: transparent !important;
+
+        .background_image {
+            display: none;
+        }
+
+        .little {
+            display: block;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+    }
+}

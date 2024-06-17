@@ -1,0 +1,51 @@
+.start_training {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-bottom: 30px;
+
+    .header {
+        font-size: 32px;
+    }
+
+    .text {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+
+    .words {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        font-size: 24px;
+
+        .edit {
+            color: #6362e7;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            cursor: pointer;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .skeleton {
+            height: 30px;
+            width: 300px;
+            border-radius: 10px !important;
+        }
+    }
+
+    &_button {
+        padding: 20px 50px;
+        font-size: 18px;
+    }
+}

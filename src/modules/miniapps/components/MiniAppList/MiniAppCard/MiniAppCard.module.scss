@@ -1,0 +1,23 @@
+.miniApp {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 15px;
+
+    .miniApp_img {
+        width: 100%;
+        min-height: 150px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px 15px 0 0;
+    }
+
+    .miniApp_title {
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        margin: 20px;
+    }
+}

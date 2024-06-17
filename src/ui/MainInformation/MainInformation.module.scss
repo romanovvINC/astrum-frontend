@@ -1,0 +1,48 @@
+.main_information_container {
+    width: 100%;
+    position: relative;
+
+    &.has_padding {
+        padding-right: 20px;
+    }
+
+    &:hover {
+        .icon {
+            display: block;
+        }
+    }
+}
+
+.main_information {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 14px;
+    gap: 10px;
+    row-gap: 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.label {
+    color: #2c323f;
+}
+
+.value {
+    color: #707070;
+}
+
+.controls__container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.icon {
+    cursor: pointer;
+    display: none;
+    min-width: 20px;
+    min-height: 20px;
+}

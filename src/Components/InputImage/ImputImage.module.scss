@@ -1,0 +1,13 @@
+.image_preview {
+    width: 200px;
+    height: 150px;
+}
+
+.upload_button {
+    margin-top: 10px;
+
+    &.invalid {
+        outline-color: #dd5555;
+        color: #dd5555;
+    }
+}

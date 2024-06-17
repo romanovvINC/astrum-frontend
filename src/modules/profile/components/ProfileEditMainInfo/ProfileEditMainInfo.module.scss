@@ -1,0 +1,42 @@
+.header {
+    margin-bottom: 25px;
+}
+
+.avatar_container {
+    width: 70px;
+    height: 70px;
+}
+
+.profile_name {
+    font-size: 20px;
+    color: #6362e7;
+}
+
+.position {
+    color: #999999;
+    font-size: 15px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.submit_button_container {
+    margin-top: 20px;
+}
+
+.save_button {
+    font-size: 16px;
+}
+
+.save_button_loading_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 400px;
+}

@@ -1,0 +1,109 @@
+.article {
+    font-family: "Rubik";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal !important;
+
+    @media only screen and (max-width: 1500px) {
+        font-size: 0.8rem;
+    }
+
+    .detail {
+        font-size: 1.25em;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        .title {
+            font-size: 1.2em;
+            font-weight: 500;
+            line-height: normal;
+            color: #6362e7;
+        }
+
+        .author_info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+
+            li {
+                color: #707070;
+            }
+
+            .span_1 {
+                font-weight: 400;
+            }
+
+            .span_2 {
+                font-weight: 300;
+            }
+        }
+
+        .description {
+            font-size: 0.8em;
+            white-space: normal;
+            margin-bottom: 30px;
+            line-height: normal;
+
+            @media only screen and (max-width: 1500px) {
+                font-size: 1em;
+            }
+        }
+
+        .icon_container {
+            cursor: pointer;
+            display: flex;
+            justify-content: right;
+            align-items: center;
+            padding: 15px 20px;
+
+            .collapse_icon {
+                width: 24px;
+                height: 12px;
+                transition: 0.2s;
+
+                &.rotated {
+                    transform: rotate(180deg);
+                }
+            }
+        }
+
+        .reactions {
+            margin-top: 20px;
+        }
+    }
+    .project_list {
+        padding-left: 20px !important;
+        padding-right: 20px;
+
+        .project_info_li {
+            border: 1px solid #c1c0f5 !important;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            padding: 0;
+
+            .project_info {
+                color: #2c323f;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 15px 20px;
+
+                &:hover {
+                    color: #6362e7;
+                    cursor: pointer;
+                }
+
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 300px;
+    margin-bottom: 30px;
+    width: 100%;
+}

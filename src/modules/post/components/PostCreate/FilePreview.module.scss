@@ -1,0 +1,84 @@
+.file_preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .file_info__container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .file_info {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+
+        .file_link {
+            color: #6362e7;
+            font-weight: 500;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .file_size {
+            color: gray;
+        }
+    }
+
+    .delete_icon {
+        border-radius: 5px;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+
+        &:hover {
+            background-color: lightgray;
+
+            path {
+                fill: #6362e7;
+            }
+        }
+    }
+}
+
+.image_preview__container {
+    position: relative;
+    object-fit: contain;
+
+    .image_preview {
+        height: 100%;
+        width: 100%;
+        object-fit: inherit;
+    }
+
+    .delete_icon {
+        background-color: lightgray;
+        position: absolute;
+        right: 5px;
+        top: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+
+        &:hover {
+            path {
+                fill: #6362e7;
+            }
+        }
+    }
+
+    .image_size {
+        border-radius: 5px;
+        background-color: lightgray;
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        padding: 0 5px;
+    }
+}

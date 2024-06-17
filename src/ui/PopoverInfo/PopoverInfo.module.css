@@ -1,0 +1,18 @@
+.popover {
+    background-color: transparent;
+    --bs-border-color-translucent: rgba(0, 0, 0, 0);
+}
+
+.popover > div:first-child {
+    background-color: transparent;
+}
+
+.popover > div:first-child > span {
+    --bs-popover-bg: rgba(0, 0, 0, 0.4);
+}
+
+.popover_body {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white !important;
+    border-radius: 10px;
+}

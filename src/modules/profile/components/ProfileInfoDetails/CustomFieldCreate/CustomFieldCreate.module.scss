@@ -1,0 +1,90 @@
+.grid {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 10px;
+}
+
+.display_hidden {
+    visibility: hidden;
+}
+
+/* free field */
+.free_field {
+    font-size: 14px;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.header {
+    align-items: center;
+    font-weight: 400;
+
+    > span {
+        cursor: pointer;
+        display: inline;
+        line-height: normal;
+    }
+}
+
+.icon_container {
+    box-sizing: border-box;
+    border: 1px solid #6362e7;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    width: 35px;
+}
+
+.rotate_45 {
+    transform: rotate(45deg);
+}
+
+/* add free fields  */
+.add_field {
+    display: grid;
+
+    .input_title,
+    .input_content {
+        border-radius: 10px;
+        font-size: 14px;
+        padding: 9px 25px;
+        resize: none;
+        line-height: normal;
+        width: 100%;
+    }
+
+    .icon_container {
+        cursor: pointer;
+    }
+}
+
+.content {
+    margin-top: 10px;
+}
+
+.input_title {
+    height: 35px;
+}
+
+.save_button_container {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.save_button_loading_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.plus {
+    width: 18px;
+    height: 18px;
+    transition: 0.2s;
+}

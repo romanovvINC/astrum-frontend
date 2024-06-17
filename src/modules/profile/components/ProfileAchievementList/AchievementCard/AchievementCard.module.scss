@@ -1,0 +1,55 @@
+.achievement_card {
+    padding-top: 50px;
+    height: 100%;
+
+    .custom_card {
+        position: relative;
+        overflow: visible;
+        padding: 60px 20px 20px;
+        display: flex;
+        width: 100%;
+        min-height: 120px;
+        height: 100%;
+
+        .card_avatar {
+            position: absolute;
+            display: flex;
+            justify-content: center;
+            top: 0;
+            left: 50%;
+            width: 50%;
+            transform: translate(-50%, -50%);
+            transition: all 200ms;
+
+            &:hover {
+                transform: translate(-50%, -50%) scale(1.1);
+            }
+        }
+
+        .title {
+            color: var(--theme-default);
+        }
+
+        .description {
+            color: #2c323f;
+        }
+    }
+}
+
+.skeleton {
+    .skeleton__circle {
+        width: 100px;
+        height: 100px;
+    }
+
+    .title {
+        border-radius: 15px;
+        height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .description {
+        border-radius: 15px;
+        height: 18px;
+    }
+}

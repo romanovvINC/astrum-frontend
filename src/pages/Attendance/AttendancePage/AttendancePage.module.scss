@@ -1,0 +1,31 @@
+.attendanceNavbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    .attendanceNavbarButton {
+        > a {
+            color: black;
+            font-size: 24px;
+            text-align: center;
+        }
+        border-right: 1px solid var(--theme-default);
+        padding: 0 18px;
+    }
+    .attendanceNavbarLast {
+        padding-right: 0;
+        border-right: 0;
+    }
+    .attendanceNavbarActive {
+        .attendanceNavbarButtonLink {
+            color: var(--theme-default);
+            font-weight: 500;
+        }
+    }
+}
+
+.colNavbar {
+    padding: 0;
+    margin: 0;
+}
+

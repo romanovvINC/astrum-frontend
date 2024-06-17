@@ -1,0 +1,102 @@
+.skills {
+    display: flex !important;
+    flex-wrap: wrap;
+    flex-direction: row !important;
+    align-items: center;
+    gap: 7px;
+    margin-top: 20px;
+}
+
+.skill {
+    border: 1px solid #d9d9d9 !important;
+    border-radius: 5px;
+    color: #707070;
+    display: inline;
+    line-height: normal;
+    padding: 5px 10px;
+}
+
+.skills .add_skill:hover {
+    cursor: pointer;
+}
+
+.relative {
+    position: relative;
+}
+
+.relative:hover .delete_competence_container {
+    display: flex;
+}
+
+.delete_competence_container {
+    background-color: white;
+    border: 1px solid #707070;
+    border-radius: 50%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    height: 17px;
+    width: 17px;
+}
+
+.delete_competence_container:hover {
+    cursor: pointer;
+}
+
+.delete_competence_icon {
+    height: 9px;
+    width: 9px;
+}
+
+/* add competence */
+
+.competence_create {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.plus_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.add_competence_container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .input {
+        color: #707070 !important;
+        font-size: 14px;
+        line-height: normal;
+        padding: 5px 10px;
+    }
+}
+
+.action_container {
+    border: 1px solid #d9d9d9;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.spinner_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+    width: 25px;
+
+    .spinner {
+        height: 20px;
+        width: 20px;
+    }
+}

@@ -1,0 +1,28 @@
+.to_top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+
+    .button {
+        width: 50px !important;
+        height: 50px;
+        border-radius: 50%;
+        padding: 0;
+        background-color: #b3b2f3;
+        transition: 0.2s;
+
+        &.visible {
+            transform: scale(1);
+            opacity: 1;
+        }
+
+        &.hidden {
+            transform: scale(0);
+            opacity: 0;
+        }
+    }
+}
+
+.arrow {
+    transform: rotate(180deg);
+}

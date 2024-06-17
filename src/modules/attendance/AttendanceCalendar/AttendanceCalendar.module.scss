@@ -1,0 +1,12 @@
+.calendar_card__body {
+    :global(.toastui-calendar-panel:not(.toastui-calnder-time)) {
+        overflow-y: auto !important;
+    }
+}
+
+.attendance_calendar__header {
+    padding: 12px;
+    display: flex;
+    margin-bottom: 24px;
+    align-items: center;
+}

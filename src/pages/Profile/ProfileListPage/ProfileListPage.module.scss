@@ -1,0 +1,16 @@
+.header_row {
+    margin-bottom: 30px;
+}
+
+.row {
+    flex-wrap: wrap-reverse !important;
+}
+
+.filter_col {
+    padding-top: 50px;
+    margin-bottom: 10px;
+
+    @media only screen and (max-width: 1200px) {
+        padding-top: 0;
+    }
+}

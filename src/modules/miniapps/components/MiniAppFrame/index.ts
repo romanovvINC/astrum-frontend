@@ -1,0 +1,1 @@
+export { default as MiniAppFrame } from './MiniAppFrame'

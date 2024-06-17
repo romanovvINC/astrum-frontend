@@ -1,0 +1,71 @@
+.body {
+    position: relative;
+}
+
+.text_input {
+    resize: none;
+    margin-bottom: 20px;
+}
+
+.text_input:focus-visible,
+.text_input:focus {
+    border-color: #6362e7;
+}
+
+.emoji_icon__container {
+    cursor: pointer;
+    position: absolute;
+    right: 40px;
+    top: 40px;
+}
+
+.emoji_selector {
+    position: absolute;
+    right: 40px;
+    top: 70px;
+    z-index: 2;
+    transition: 0.2s;
+}
+
+.emoji_selector.close {
+    opacity: 0;
+    height: 0;
+    > * {
+        height: 0 !important;
+    }
+}
+
+.files_preview__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.images_preview__container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.actions__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.upload_files__container {
+    display: flex;
+    gap: 15px;
+
+    .icon {
+        cursor: pointer;
+
+        &:hover {
+            path {
+                fill: #6362e7;
+            }
+        }
+    }
+}

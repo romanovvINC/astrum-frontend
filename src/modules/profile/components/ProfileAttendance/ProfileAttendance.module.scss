@@ -1,0 +1,36 @@
+.attendance_time {
+    padding: 8px;
+    border: 0;
+    border-radius: 8px;
+    margin: 0;
+    > h6 {
+        margin: 0;
+        padding: 0;
+        > span {
+            font-weight: 500;
+        }
+    }
+}
+
+.in_office {
+    background-color: #d8f0cf;
+}
+
+.not_in_office {
+    background-color: grey;
+}
+
+.attendance_time__container {
+    display: flex;
+}
+
+.profile_attendance__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.attendance__link_button {
+    font-size: 18px;
+}
+

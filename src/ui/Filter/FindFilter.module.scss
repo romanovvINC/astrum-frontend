@@ -1,0 +1,68 @@
+.filter {
+    .filter_header_btn {
+        border-top: none !important;
+        border-left: none !important;
+        border-right: none !important;
+        font-family: "Rubik", sans-serif;
+        margin-bottom: 15px;
+        cursor: default;
+    }
+
+    .filter_body {
+        .categories {
+            .categories_header {
+                padding-left: 0;
+            }
+        }
+
+        .filter_item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            padding: 10px 20px 10px 10px;
+
+            &:first-child {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+            }
+
+            &:last-child {
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+
+            &.active {
+                background-color: #ecf3fa;
+                &:hover {
+                    background-color: #ecf3fa;
+                }
+            }
+
+            &:hover {
+                background-color: white;
+                cursor: pointer;
+
+                > span:first-child {
+                    cursor: pointer;
+                    color: #6362e7;
+                }
+            }
+
+            > span {
+                font-family: Rubik, sans-serif;
+                color: #999999;
+                font-weight: 500;
+            }
+
+            > .span {
+                font-weight: 400;
+                color: white;
+            }
+        }
+
+        .submit_btn {
+            width: 100% !important;
+        }
+    }
+}

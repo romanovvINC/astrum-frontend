@@ -1,0 +1,22 @@
+.training {
+    min-height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    border-radius: 20px;
+    background: #fff;
+    padding: 0 50px;
+
+    &_button {
+        align-self: center;
+        font-size: 18px;
+        padding: 20px 50px;
+    }
+}
+
+.label {
+    font-size: 20px;
+    font-weight: 500;
+}

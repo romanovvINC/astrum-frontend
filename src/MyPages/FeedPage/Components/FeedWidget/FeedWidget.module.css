@@ -1,0 +1,25 @@
+.container {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.container::after {
+    display: block;
+    content: "";
+    padding-bottom: 100%;
+}
+
+.widget {
+    border-radius: 15px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1199px) {
+    .container {
+        width: 100%;
+    }
+}

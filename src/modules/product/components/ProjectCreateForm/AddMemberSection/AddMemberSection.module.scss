@@ -1,0 +1,15 @@
+.required_star {
+    color: #dd5555;
+}
+
+.group_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    column-gap: 60px;
+    row-gap: 20px;
+}
+
+.invalid {
+    border: 1px solid #dd5555 !important;
+}

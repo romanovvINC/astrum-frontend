@@ -1,0 +1,26 @@
+.reaction_container {
+    border: 1px solid #6362e7;
+    border-radius: 15px;
+    color: #2c323f;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-family: Rubik, sans-serif;
+    padding: 6px 10px;
+    line-height: normal;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+
+.reaction_container > img {
+    margin: 0;
+}
+
+.reaction_container:hover {
+    cursor: pointer;
+}

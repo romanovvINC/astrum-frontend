@@ -1,0 +1,35 @@
+.trainings {
+    padding-bottom: 30px;
+}
+
+.last_col {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+    h2 {
+        margin: 0;
+    }
+
+    .item {
+        width: 100%;
+        height: 50%;
+        border-radius: 20px;
+        background-color: #fff;
+        padding: 24px;
+        font-size: 20px;
+        cursor: pointer;
+        transition: 0.2s;
+        text-align: center;
+        box-shadow: 5px 5px 5px #d9d9d9;
+
+        &:hover {
+            box-shadow: 5px 5px 10px #b7b7b7;
+        }
+    }
+
+    .amount {
+        color: #6362e7;
+        font-size: 90px;
+    }
+}

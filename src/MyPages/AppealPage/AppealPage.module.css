@@ -1,0 +1,13 @@
+.appealModal {
+    font-family: "Rubik";
+}
+
+.tablePlaceholder {
+    display: flex;
+    justify-content: center;
+}
+
+.image_preview {
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,17 @@
+.last_achievement {
+    cursor: pointer;
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #6362e7;
+    border-radius: 50%;
+    height: 55px;
+    width: 55px;
+    overflow: hidden;
+}
+
+.icon {
+    object-fit: cover;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0 !important;
+}

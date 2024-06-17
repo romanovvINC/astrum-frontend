@@ -1,0 +1,95 @@
+.employee_card {
+    padding-top: 50px;
+
+    .card_body {
+        position: relative;
+        overflow: visible;
+        padding-top: 50px;
+        gap: 20px;
+    }
+
+    .employee_avatar__container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 200ms;
+        width: 120px;
+        height: 120px;
+
+        &:hover {
+            transform: translate(-50%, -50%) scale(1.1);
+        }
+    }
+
+    .employee_avatar {
+        width: 120px;
+        height: 120px;
+        object-fit: cover;
+    }
+
+    .social_network__list {
+        padding: 0 !important;
+
+        li.social_network__item {
+            background-color: #fff !important;
+
+            &:hover {
+                border: none !important;
+            }
+
+            a {
+                background: none !important;
+                border: none;
+
+                &:hover {
+                    background: none !important;
+                    border: none;
+                }
+            }
+        }
+    }
+
+    .competencies__list {
+        display: flex !important;
+        gap: 5px;
+        flex-flow: row wrap;
+
+        .competence {
+            padding: 2px 10px;
+            border: 1px solid silver;
+            display: flex;
+            border-radius: 5px;
+        }
+    }
+}
+
+.skeleton {
+    .skeleton_avatar__container {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        top: 0;
+        left: 50%;
+        width: 50%;
+        transform: translate(-50%, -50%);
+
+        .skeleton_avatar {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+        }
+    }
+
+    .name {
+        border-radius: 15px;
+    }
+}
+
+.office_status {
+    color: green;
+}
+
+

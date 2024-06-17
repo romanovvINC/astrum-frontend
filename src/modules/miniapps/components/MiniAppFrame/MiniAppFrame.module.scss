@@ -1,0 +1,11 @@
+.app_wrapper {
+  height: 80vh;
+  overflow: hidden;
+}
+
+.app_frame {
+  transform: scale(0.666);
+  transform-origin: 0 0;
+  height: 150%;
+  width: 150%;
+}

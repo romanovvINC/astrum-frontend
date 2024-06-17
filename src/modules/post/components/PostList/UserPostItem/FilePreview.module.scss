@@ -1,0 +1,46 @@
+.file_preview {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .file_info__container {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .file_info {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+
+        .file_link {
+            color: #6362e7;
+            font-weight: 500;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .file_size {
+            color: gray;
+        }
+    }
+
+    .delete_icon {
+        border-radius: 5px;
+        cursor: pointer;
+        width: 25px;
+        height: 25px;
+        padding: 5px;
+
+        &:hover {
+            background-color: lightgray;
+
+            path {
+                fill: #6362e7;
+            }
+        }
+    }
+}

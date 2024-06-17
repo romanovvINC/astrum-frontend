@@ -1,0 +1,64 @@
+.modal {
+    border-radius: 20px !important;
+
+    .header {
+        border-radius: inherit;
+        border-bottom: none;
+        padding: 50px 50px 44px 50px;
+
+        > * {
+            font-family: "Rubik", sans-serif;
+            font-size: 24px;
+            font-weight: normal;
+            color: #242934;
+        }
+
+        svg {
+            cursor: pointer;
+
+            &:hover {
+                path {
+                    fill: #6362e7;
+                }
+            }
+        }
+    }
+
+    .body {
+        padding: 0 50px !important;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        .input {
+            border-radius: 10px;
+        }
+    }
+
+    .footer {
+        padding: 44px 50px 50px 50px !important;
+        justify-content: center !important;
+        border-top: none !important;
+    }
+
+    .button {
+        padding: 15px 75px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 20px;
+    }
+
+    &_title {
+        margin: 0;
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 400;
+        color: #242934;
+    }
+}
+
+.tab_items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

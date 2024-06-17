@@ -1,0 +1,11 @@
+.attendanceUsersStatistics {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.attendanceUsersStatisticsTable {
+    display: grid;
+    grid-template-columns: 64px 2fr 2fr 3fr 3fr 3fr;
+    box-shadow: 0px 4px 30px rgba(95, 94, 231, 0.07);
+}

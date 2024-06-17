@@ -1,0 +1,64 @@
+.statistic_card {
+    border-radius: 20px;
+    padding: 30px;
+    background-color: #fff;
+
+    .amount {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        margin: 20px 0;
+        font-size: 18px;
+
+        &_num {
+            color: #6362e7;
+            font-size: 40px;
+            font-weight: 600;
+        }
+    }
+
+    .option {
+        font-size: 18px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+        &_color {
+            display: block;
+            width: 20px;
+            height: 20px;
+            border-radius: 3px;
+        }
+
+        .flash {
+            background-color: #aeaef1;
+        }
+
+        .term {
+            background-color: #bddbe1;
+        }
+
+        .def {
+            background-color: #acd0af;
+        }
+
+        .correct {
+            background-color: #81c314;
+        }
+
+        .wrong {
+            background-color: #dd5555;
+        }
+    }
+
+    .inline_options {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .text {
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+}

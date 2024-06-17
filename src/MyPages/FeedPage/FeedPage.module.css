@@ -1,0 +1,10 @@
+@media screen and (max-width: 1199px) {
+    .widgets {
+        display: flex;
+        gap: 15px;
+    }
+
+    .row {
+        flex-wrap: wrap-reverse !important;
+    }
+}

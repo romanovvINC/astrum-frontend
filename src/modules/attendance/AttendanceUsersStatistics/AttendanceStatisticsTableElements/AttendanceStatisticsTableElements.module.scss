@@ -1,0 +1,40 @@
+.tableCurrency {
+    display: flex;
+    align-items: center;
+    > h5 {
+        margin: 0;
+        margin-left: 12px;
+    }
+}
+
+.tableElement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0;
+    text-align: center;
+    border-bottom: 1px solid #cacaca;
+}
+
+.avatarCointainer {
+    margin-left: 16px;
+}
+
+.tableTitle {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 0;
+    border-bottom: 0;
+    > h4 {
+        font-size: 16px;
+    }
+}
+
+.tableTitleLast {
+    padding-left: 8px;
+}
+
+.lastTableElement {
+    border-bottom: 0;
+}

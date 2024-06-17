@@ -1,0 +1,53 @@
+.article {
+    font-family: "Rubik", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: normal !important;
+
+    .detail {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        font-size: 1.25em;
+
+        .title {
+            font-size: 1.2em;
+            font-weight: 500;
+            line-height: normal;
+            color: #6362e7;
+        }
+
+        > .author_info {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            align-items: flex-start;
+
+            li {
+                color: #707070;
+            }
+        }
+
+        > hr {
+            height: auto;
+            border-color: #6362e7;
+            opacity: 0.4;
+            width: 100%;
+        }
+
+        > .description {
+            font-size: 0.8em;
+            white-space: normal;
+            margin-bottom: 30px;
+            line-height: normal;
+
+            @media only screen and (max-width: 1500px) {
+                font-size: 1em;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1500px) {
+        font-size: 0.8rem;
+    }
+}

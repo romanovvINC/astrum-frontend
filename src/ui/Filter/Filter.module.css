@@ -1,0 +1,14 @@
+.filter_sidebar .sidebar_container {
+}
+
+@media only screen and (max-width: 1200px) {
+    .filter_sidebar .sidebar_container {
+        min-width: 360px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .filter_sidebar .sidebar_container .sidebar {
+        width: 90%;
+    }
+}

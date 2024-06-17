@@ -1,0 +1,20 @@
+.header {
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: flex;
+  gap: 50px !important;
+  flex-wrap: wrap !important;
+}
+
+.card {
+  font-size: 20px;
+  display: flex;
+
+  > * {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 40px;
+  }
+}

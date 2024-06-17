@@ -1,0 +1,33 @@
+.custom_field__item {
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+        margin-bottom: 10px;
+
+        > * {
+            margin: 0;
+        }
+    }
+
+    .value {
+        padding: 15px 20px !important;
+    }
+
+    .delete_icon {
+        border-radius: 50%;
+        cursor: pointer;
+        padding: 5px;
+        width: 30px;
+        height: 30px;
+        transition: 0.2s;
+
+        &:hover {
+            background-color: lightgray;
+            path {
+                fill: #6362e7;
+            }
+        }
+    }
+}

@@ -1,0 +1,66 @@
+.progressbar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 100%;
+}
+
+.progress_container {
+    display: flex;
+    flex-direction: column-reverse;
+    height: calc(100% - 98px);
+    width: 40px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background: #fff;
+    position: relative;
+
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -40px;
+        display: block;
+        width: 40px;
+        height: 40px;
+        border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px;
+        background: #fff;
+    }
+
+    .progress {
+        height: 0;
+        width: 40px;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        transition: 0.4s ease;
+        position: relative;
+
+        &::before {
+            content: "";
+            position: absolute;
+            bottom: -40px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            transition: 0.4s ease;
+        }
+
+        &.red,
+        &.red::before {
+            background: #dd5555;
+        }
+
+        &.yellow,
+        &.yellow::before {
+            background: #e7d10d;
+        }
+
+        &.green,
+        &.green::before {
+            background: #81c314;
+        }
+    }
+}

@@ -1,0 +1,34 @@
+import { ProfileInfoState } from "./ProfileInfoState";
+import { ProfileEditInfo } from "./ProfileEditInfo";
+import { ProfileListState } from "./ProfileListState";
+import { ProfileAchievementListInfoState } from "./ProfileAchievementListInfoState";
+
+export type ProfileState = {
+    pending: boolean;
+    pendingChange: boolean;
+    pendingCheckUsername: boolean;
+    pendingList: boolean;
+    pendingFilter: boolean;
+    pendingAchievementListInfo: boolean;
+    pendingAchievements: boolean;
+    pendingCustomFieldChange: boolean;
+    pendingCompetenceChange: boolean;
+    pendingPosts: boolean;
+    pendingPostsAsync: boolean;
+    pageIndex: number;
+    count: number;
+    profileInfo: ProfileInfoState;
+    profileAchievementListInfo: ProfileAchievementListInfoState;
+    profileEditInfo: ProfileEditInfo;
+    profileList: ProfileListState;
+    error: string | null;
+    errorChange: string | null;
+    errorCheckUsername: string | null;
+    errorList: string | null;
+    errorFilter: string | null;
+    errorAchievementListInfo: string | null;
+    errorAchievements: string | null;
+    errorCustomFieldChange: string | null;
+    errorCompetenceChange: string | null;
+    errorPosts: string | null;
+};

@@ -1,0 +1,87 @@
+:root {
+    --violet: #b3b2f3;
+    --light: #e3e3f3;
+}
+
+.training_card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 25px;
+    height: 100%;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.2s;
+    box-shadow: 5px 5px 5px #d9d9d9;
+
+    h3 {
+        margin: 0;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+
+    .items {
+        margin-top: 30px;
+        font-size: 16px;
+        border: 3px solid var(--violet);
+        border-radius: 20px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        .item:first-child {
+            font-weight: 500;
+            padding: 38px 0;
+            text-align: center;
+            border-radius: 20px;
+            background: var(--violet);
+            font-size: 20px;
+        }
+
+        .item {
+            padding: 10px 0;
+            border-radius: 10px;
+            background: var(--light);
+            text-align: center;
+        }
+    }
+
+    .items_flash {
+        display: flex;
+        flex-grow: 1;
+        flex-direction: column;
+        justify-content: center;
+        border: 3px solid var(--violet);
+        border-radius: 20px;
+        margin-top: 30px;
+        padding: 20px;
+
+        .item {
+            border-radius: 20px;
+            background: var(--violet);
+            padding: 50px 0;
+            text-align: center;
+            font-weight: 500;
+        }
+
+        .redo_icon {
+            align-self: center;
+            background-color: var(--light);
+            width: 54px;
+            height: 54px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-top: 24px;
+        }
+    }
+}
+
+.training_card:hover {
+    box-shadow: 5px 5px 10px #b7b7b7;
+}

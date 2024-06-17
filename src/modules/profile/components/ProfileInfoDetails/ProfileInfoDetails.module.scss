@@ -1,0 +1,52 @@
+.card {
+    padding: 25px;
+
+    > .header {
+        padding: 0 !important;
+    }
+}
+
+.custom_fields__list {
+    > li {
+        display: block !important;
+        &:nth-child(n + 2) {
+            margin-top: 10px !important;
+        }
+    }
+}
+
+.project_list {
+    > .project {
+        border-bottom: 1px solid #efefef;
+        padding: 15px 10px 10px 0 !important;
+        margin: 0 !important;
+        cursor: pointer;
+
+        &:hover {
+            .label {
+                color: #6362e7;
+            }
+        }
+
+        > .project_link {
+            color: #2c323f;
+            font-weight: 300;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 5px;
+            line-height: normal;
+            width: 100%;
+
+            > .value {
+                color: #707070;
+                font-size: 12px;
+            }
+        }
+    }
+}
+
+.skeleton {
+    border-radius: 15px !important;
+    height: 300px;
+}
